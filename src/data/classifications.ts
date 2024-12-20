@@ -1,164 +1,180 @@
-import { Classification } from '../types';
+import { Classification } from "../types";
 
 export const classifications: Classification[] = [
   {
-    id: 'war-crimes',
+    id: "war-crimes",
     translations: {
-      en: 'Perpetrator of War Crimes',
-      ar: 'مرتكب جرائم حرب',
-      fr: 'Auteur de crimes de guerre'
-    }
+      en: "Perpetrator of War Crimes",
+      ar: "مرتكب جرائم حرب",
+      fr: "Auteur de crimes de guerre",
+    },
   },
   {
-    id: 'torturer',
+    id: "torturer",
     translations: {
-      en: 'Torturer',
-      ar: 'جلاد',
-      fr: 'Tortureur'
-    }
+      en: "Torturer",
+      ar: "جلاد",
+      fr: "Tortureur",
+    },
   },
   {
-    id: 'rapist',
+    id: "thief",
     translations: {
-      en: 'Rapist',
-      ar: 'مغتصب',
-      fr: 'Violeur'
-    }
+      en: "Thief",
+      ar: "لص",
+      fr: "Voleur",
+    },
   },
   {
-    id: 'thief',
+    id: "informant",
     translations: {
-      en: 'Thief',
-      ar: 'لص',
-      fr: 'Voleur'
-    }
+      en: "Informant",
+      ar: "مخبر",
+      fr: "Informateur",
+    },
   },
   {
-    id: 'informant',
+    id: "intelligence-officer",
     translations: {
-      en: 'Informant',
-      ar: 'مخبر',
-      fr: 'Informateur'
-    }
+      en: "Intelligence Officer",
+      ar: "ضابط استخبارات",
+      fr: "Officier de renseignement",
+    },
   },
   {
-    id: 'intelligence-officer',
+    id: "shabiha",
     translations: {
-      en: 'Intelligence Officer',
-      ar: 'ضابط استخبارات',
-      fr: 'Officier de renseignement'
-    }
+      en: "Shabiha Militia Member",
+      ar: "عضو في ميليشيا الشبيحة",
+      fr: "Membre de la milice Shabiha",
+    },
   },
   {
-    id: 'shabiha',
+    id: "military-official",
     translations: {
-      en: 'Shabiha Militia Member',
-      ar: 'عضو في ميليشيا الشبيحة',
-      fr: 'Membre de la milice Shabiha'
-    }
+      en: "Military Official",
+      ar: "مسؤول عسكري",
+      fr: "Officiel militaire",
+    },
   },
   {
-    id: 'military-official',
+    id: "security-official",
     translations: {
-      en: 'Military Official',
-      ar: 'مسؤول عسكري',
-      fr: 'Officiel militaire'
-    }
+      en: "Security Official",
+      ar: "مسؤول أمني",
+      fr: "Officiel de sécurité",
+    },
   },
   {
-    id: 'security-official',
+    id: "government-admin",
     translations: {
-      en: 'Security Official',
-      ar: 'مسؤول أمني',
-      fr: 'Officiel de sécurité'
-    }
+      en: "Government Administrator",
+      ar: "إداري حكومي",
+      fr: "Administrateur gouvernemental",
+    },
   },
   {
-    id: 'government-admin',
+    id: "chemical-weapons",
     translations: {
-      en: 'Government Administrator',
-      ar: 'إداري حكومي',
-      fr: 'Administrateur gouvernemental'
-    }
+      en: "Chemical Weapons Operator",
+      ar: "مشغل أسلحة كيميائية",
+      fr: "Opérateur d'armes chimiques",
+    },
   },
   {
-    id: 'chemical-weapons',
+    id: "detention-center",
     translations: {
-      en: 'Chemical Weapons Operator',
-      ar: 'مشغل أسلحة كيميائية',
-      fr: 'Opérateur d\'armes chimiques'
-    }
+      en: "Detention Center Personnel",
+      ar: "موظف في مركز احتجاز",
+      fr: "Personnel de centre de détention",
+    },
   },
   {
-    id: 'detention-center',
+    id: "executioner",
     translations: {
-      en: 'Detention Center Personnel',
-      ar: 'موظف في مركز احتجاز',
-      fr: 'Personnel de centre de détention'
-    }
+      en: "Executioner",
+      ar: "منفذ إعدامات",
+      fr: "Bourreau",
+    },
   },
   {
-    id: 'executioner',
+    id: "propagandist",
     translations: {
-      en: 'Executioner',
-      ar: 'منفذ إعدامات',
-      fr: 'Bourreau'
-    }
+      en: "Propagandist",
+      ar: "مروج دعاية",
+      fr: "Propagandiste",
+    },
   },
   {
-    id: 'propagandist',
+    id: "inciter",
     translations: {
-      en: 'Propagandist',
-      ar: 'مروج دعاية',
-      fr: 'Propagandiste'
-    }
+      en: "Inciter of Violence",
+      ar: "محرض على العنف لصالح النظام",
+      fr: "Incitateur à la violence",
+    },
   },
   {
-    id: 'financial-supporter',
+    id: "Promoter",
     translations: {
-      en: 'Financial Supporter of Regime',
-      ar: 'داعم مالي للنظام',
-      fr: 'Supporteur financier du régime'
-    }
+      en: "Hate Speech Promoter",
+      ar: "مروج خطاب الكراهية لصالح النظام",
+      fr: "Promoteur de discours de haine",
+    },
   },
   {
-    id: 'arms-supplier',
+    id: "Apologist",
     translations: {
-      en: 'Arms Supplier',
-      ar: 'مزود أسلحة',
-      fr: 'Fournisseur d\'armes'
-    }
+      en: "Regime Apologist",
+      ar: "مبرر للنظام",
+      fr: "Apologiste du régime",
+    },
   },
   {
-    id: 'rights-violator',
+    id: "financial-supporter",
     translations: {
-      en: 'Human Rights Violator',
-      ar: 'منتهك حقوق الإنسان',
-      fr: 'Violateur des droits de l\'homme'
-    }
+      en: "Financial Supporter of Regime",
+      ar: "داعم مالي للنظام",
+      fr: "Supporteur financier du régime",
+    },
   },
   {
-    id: 'disappearances',
+    id: "arms-supplier",
     translations: {
-      en: 'Enforcer of Forced Disappearances',
-      ar: 'منفذ حالات اختفاء قسري',
-      fr: 'Responsable de disparitions forcées'
-    }
+      en: "Arms Supplier",
+      ar: "مزود أسلحة",
+      fr: "Fournisseur d'armes",
+    },
   },
   {
-    id: 'displacements',
+    id: "rights-violator",
     translations: {
-      en: 'Enforcer of Forced Displacements',
-      ar: 'منفذ حالات تهجير قسري',
-      fr: 'Responsable de déplacements forcés'
-    }
+      en: "Human Rights Violator",
+      ar: "منتهك حقوق الإنسان",
+      fr: "Violateur des droits de l'homme",
+    },
   },
   {
-    id: 'sexual-violence',
+    id: "disappearances",
     translations: {
-      en: 'Perpetrator of Sexual Violence',
-      ar: 'مرتكب عنف جنسي',
-      fr: 'Auteur de violences sexuelles'
-    }
-  }
+      en: "Enforcer of Forced Disappearances",
+      ar: "منفذ حالات اختفاء قسري",
+      fr: "Responsable de disparitions forcées",
+    },
+  },
+  {
+    id: "displacements",
+    translations: {
+      en: "Enforcer of Forced Displacements",
+      ar: "منفذ حالات تهجير قسري",
+      fr: "Responsable de déplacements forcés",
+    },
+  },
+  {
+    id: "sexual-violence",
+    translations: {
+      en: "Perpetrator of Sexual Violence",
+      ar: "مرتكب عنف جنسي",
+      fr: "Auteur de violences sexuelles",
+    },
+  },
 ];
