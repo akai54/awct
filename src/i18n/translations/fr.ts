@@ -80,5 +80,39 @@ export const fr = {
           "Veuillez ne pas soumettre d'informations personnelles sensibles.",
       },
     },
+    about: {
+      mission: "Notre Mission",
+      missionDescription:
+        "Le Suivi des Criminels de Guerre du Régime Assad est dédié à documenter et à exposer les violations des droits de l'homme et les crimes de guerre commis pendant la révolution syrien. Notre mission est de veiller à ce que ces atrocités ne soient ni oubliées ni ignorées, et de soutenir les efforts en faveur de la justice et de la responsabilité envers les victimes.",
+      whatWeDo: "Ce Que Nous Faisons",
+      documentation:
+        "Documentation : Nous collectons et vérifions méticuleusement des informations relatives aux crimes de guerre, y compris la torture, les exécutions extrajudiciaires, les disparitions forcées et d'autres violations des droits de l'homme. Nos sources incluent des témoignages de survivants, des documents officiels et des renseignements en source ouverte.",
+      databaseManagement:
+        "Gestion de Base de Données : Notre plateforme offre une base de données multilingue complète des individus et entités impliqués dans ces crimes, classés par leurs rôles et actions. Cette ressource sert d'outil pour les chercheurs, les professionnels du droit et les défenseurs des droits de l'homme.",
+      advocacy:
+        "Plaidoyer : En mettant en lumière ces violations, nous visons à sensibiliser et à mobiliser le soutien international pour des actions juridiques contre les auteurs, contribuant ainsi à la quête mondiale de justice.",
+      whyItMatters: "Pourquoi C'est Important",
+      justiceForVictims:
+        "Justice pour les Victimes : Fournir une plateforme pour les histoires des victimes garantit que leurs souffrances sont reconnues et aide au processus de guérison.",
+      accountability:
+        "Responsabilité : Des enregistrements complets des abus sont essentiels pour tenir les auteurs responsables devant la justice, tant au niveau national qu'international.",
+      historicalRecord:
+        "Mémoire Historique : Une documentation précise préserve la vérité pour les générations futures, empêchant le déni et le révisionnisme.",
+      ourCommitment: "Notre Engagement",
+      commitmentDescription:
+        "Nous nous engageons à opérer avec les plus hauts standards d'intégrité, d'honnêteté et de respect de la dignité de tous les individus. Notre équipe travaille sans relâche pour s'assurer que les informations que nous fournissons sont précises, vérifiées et présentées avec sensibilité envers les victimes et leurs familles.",
+      getInvolved: "Participez",
+      submittingInformation:
+        "Soumettant des Informations : Si vous disposez d'informations crédibles concernant des crimes de guerre en Syrie, veuillez les partager via notre portail de soumission sécurisé.",
+      supportingOurWork:
+        "Soutenant Notre Travail : Vos dons nous aident à poursuivre notre mission de documenter et d'exposer les violations des droits de l'homme.",
+      spreadingAwareness:
+        "Sensibilisant : Partagez notre plateforme et nos découvertes pour éduquer les autres sur la quête continue de justice en Syrie.",
+      contactUs: "Contactez-Nous",
+      contactDescription:
+        "Pour des questions, des collaborations ou pour en savoir plus sur notre travail, veuillez nous contacter à [informations de contact].",
+      together:
+        "Ensemble, nous pouvons nous assurer que les voix des victimes sont entendues, et que la justice prévaut.",
+    },
   },
 };
